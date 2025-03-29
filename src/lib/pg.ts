@@ -58,7 +58,7 @@ class PG extends Participant {
       await this.send(prompt, stream);
     } catch (err) {
       stream.markdown(
-        "🤔 I can't find the schema for the database. Please check the connection string with `/conn`"
+        "Jerry 🤔 I can't find the schema for the database. Please check the connection string with `/conn`"
       );
     }
   }
